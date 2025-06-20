@@ -1,34 +1,61 @@
-## 📅 Week 1 – Design Principles and Patterns
+# 📅 Week 1 – Design Principles and Patterns
 
-📁 **Folder Path:**  
-`Week1_DesignPrinciplesAndPatterns/`
-
----
-
-### 🧩 Topics Covered
-
-- ✅ Singleton Pattern  
-- ✅ Factory Method Pattern  
-- ✅ Product Search using Binary Search  
-- ✅ Financial Forecast using Arrays
+This folder contains the Java exercises I completed as part of Week 1 of the DN 4.0 Java Full Stack Engineer program. The main focus this week was to learn object-oriented design principles like SOLID and explore popular design patterns such as Singleton, Factory, Builder, Adapter, and Strategy.
 
 ---
 
-### 📂 Directory Structure
+## ✅ Core Exercises (`Code/Mandatory/`)
 
-- `Code/` – Contains all `.java` source code files  
-- `Output/` – Contains the output file: `Week1_Java_Exercise_Output.txt`
+These are the required exercises for Week 1:
+
+- **Singleton Pattern** – Implemented in `SingletonExample.java`
+- **Factory Method Pattern** – Implemented using `ShapeFactory.java`, `Main.java`, `Shape.java`, `Circle.java`, and `Square.java`
+- **Binary Search Implementation** – Found in `ProductSearch.java`
+- **Revenue Forecast using Arrays** – Created in `FinancialForecast.java`
 
 ---
 
-### ⚙️ How to Compile and Run the Programs
+## 💡 Additional Practice (`Code/HandsOn/`)
 
-To compile and run any Java program:
+To enhance my understanding of design patterns, I also worked on a few extra hands-on tasks:
 
-1. Open a terminal or command prompt.
-2. Navigate to the `Code/` directory.
-3. Use the following commands:
+- **Builder Pattern** – `MealBuilderDemo.java`
+- **Adapter Pattern** – `AdapterPatternDemo.java`
+- **Strategy Pattern** – `StrategyPatternDemo.java`
 
-Example file names:
-javac SingletonExample.java   # Compiles the program
-java SingletonExample         # Runs the program
+These additional exercises helped reinforce the real-world use of different design pattern types: creational, structural, and behavioral.
+
+---
+
+## 📁 Folder Structure
+
+Week1_DesignPrinciplesAndPatterns/
+├── Code/
+│   ├── Mandatory/
+│   └── HandsOn/
+├── Output/
+└── README.md
+
+---
+
+## 📄 Output Location
+
+The terminal outputs for all programs (mandatory and hands-on) are saved in:
+
+Output/Week1_Java_Exercise_Output.txt
+
+---
+
+## 🛠️ How to Compile and Run Java Files
+
+To run any program from this week, open a terminal in the appropriate folder and use the commands below:
+
+javac FileName.java  
+java FileName
+
+### Example:
+
+javac StrategyPatternDemo.java  
+java StrategyPatternDemo
+
+---
