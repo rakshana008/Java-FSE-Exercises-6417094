@@ -9,9 +9,9 @@ Are both instances the same? true
 The output confirms that only one object of the Singleton class was created and reused.
 
 ------------------------------------------------------------
-
+===================================
 Exercise 2: Factory Method Pattern
-===============================
+==================================
 Output:
 Drawing Circle
 Drawing Square
@@ -19,23 +19,40 @@ Drawing Square
 This output shows that the factory created the correct shape objects based on the input type.
 
 ------------------------------------------------------------
-
+==========================================
 Exercise 3: Product Search (Binary Search)
-===============================
+==========================================
 Output:
 Product found at position: 2
 
 The program successfully located the product ID using a binary search in a sorted list.
 
 ------------------------------------------------------------
-
+==================================
 Exercise 4: Financial Forecasting
-===============================
+=================================
 Output:
 Total forecasted revenue: ₹6105.1  
 Average monthly revenue: ₹1221.02
 
 The output shows the calculated total and average revenue across five months using array data.
+
+===============================
+Hands-On Exercises Output
+===============================
+
+[1] Builder Pattern – MealBuilderDemo.java
+Main Dish: Grilled Veggie Sandwich
+Beverage: Fresh Lemon Juice
+----------------------------------------------------
+[2] Adapter Pattern – AdapterPatternDemo.java
+Now playing MP3 track: beats.mp3
+Format not supported: wav. Adapter needed.
+------------------------------------------------
+[3] Strategy Pattern – StrategyPatternDemo.java
+Paid ₹2500 using Credit Card.
+Paid ₹1500 using PayPal.
+
 
 
 
