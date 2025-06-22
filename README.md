@@ -108,7 +108,9 @@ Output File
 
 All design pattern program outputs are saved in:
 
-DesignPatterns_All_Outputs.txt
+Week1_DesignPatterns_All_Outputs.txt
+Week1_AlgorithmsAndDatastructures.txt
+
 
 -------------------------------
 Author
