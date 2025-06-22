@@ -1,0 +1,58 @@
+Hands-On Exercises
+===============================
+Exercise 1: Inventory Management System
+===============================
+P101 - Mouse - Qty: 70 - ₹280.0
+
+
+===============================
+Exercise 2: E-commerce Search Function
+===============================
+Linear: true
+Binary: true
+
+
+===============================
+Exercise 3: Sorting Customer Orders
+===============================
+O2 - Bob - ₹500.0
+O1 - Alice - ₹1000.0
+O3 - Charlie - ₹1500.0
+
+
+===============================
+Exercise 4: Employee Management System
+===============================
+E101 - John - Manager - ₹70000.0
+E102 - Jane - HR - ₹50000.0
+E101 - John - Manager - ₹70000.0
+E101 - John - Manager - ₹70000.0
+
+
+===============================
+Exercise 5: Task Management System
+===============================
+T2 - Code - Done
+T1 - Design - Pending
+T2 - Code - Done
+
+
+===============================
+Exercise 6: Library Management System
+===============================
+Linear: true
+Binary: true
+
+
+Mandatory Exercises
+
+===============================
+Exercise 2: E-commerce Search Function
+===============================
+Linear: true
+Binary: true
+
+===============================
+Exercise 7: Financial Forecasting
+===============================
+Future Value: ₹11576.25
