@@ -1,61 +1,131 @@
-# 📅 Week 1 – Design Principles and Patterns
+Java FSE - DN 4.0 Exercises
 
-This folder contains the Java exercises I completed as part of Week 1 of the DN 4.0 Java Full Stack Engineer program. The main focus this week was to learn object-oriented design principles like SOLID and explore popular design patterns such as Singleton, Factory, Builder, Adapter, and Strategy.
+This repository contains all my hands-on solutions for the Java Full Stack Engineering program - DN 4.0. More weeks will be added here as I progress.
 
----
+Week 1 Completed ✅  
+Topics: Algorithms, Data Structures, Design Patterns
 
-## ✅ Core Exercises (`Code/Mandatory/`)
+-------------------------------
+📁 Folder Structure
+-------------------------------
 
-These are the required exercises for Week 1:
+Java-FSE-Exercises-6417094/
+  algorithms/
+    Exercise1_InventoryManagement.java
+    Exercise2_EcommerceSearch.java
+    Exercise3_SortingOrders.java
+    Exercise4_EmployeeSystem.java
+    Exercise5_TaskManagement.java
+    Exercise6_LibrarySearch.java
+    Exercise7_FinancialForecasting.java
 
-- **Singleton Pattern** – Implemented in `SingletonExample.java`
-- **Factory Method Pattern** – Implemented using `ShapeFactory.java`, `Main.java`, `Shape.java`, `Circle.java`, and `Square.java`
-- **Binary Search Implementation** – Found in `ProductSearch.java`
-- **Revenue Forecast using Arrays** – Created in `FinancialForecast.java`
+  design-patterns/
+    mandatory/
+      SingletonPatternExample.java
+      FactoryMethodPatternExample.java
 
----
+    handson/
+      BuilderPatternExample.java
+      AdapterPatternExample.java
+      DecoratorPatternExample.java
+      ProxyPatternExample.java
+      ObserverPatternExample.java
+      StrategyPatternExample.java
+      CommandPatternExample.java
+      MVCPatternExample.java
+      DependencyInjectionExample.java
 
-## 💡 Additional Practice (`Code/HandsOn/`)
+  DesignPatterns_All_Outputs.txt
+  README.md
 
-To enhance my understanding of design patterns, I also worked on a few extra hands-on tasks:
+-------------------------------
+Week 1 - Algorithms & Data Structures
+-------------------------------
 
-- **Builder Pattern** – `MealBuilderDemo.java`
-- **Adapter Pattern** – `AdapterPatternDemo.java`
-- **Strategy Pattern** – `StrategyPatternDemo.java`
+1. Inventory Management  
+   Use HashMap to store, update, and remove products.
 
-These additional exercises helped reinforce the real-world use of different design pattern types: creational, structural, and behavioral.
+2. E-commerce Search  
+   Implements linear and binary search on product lists.
 
----
+3. Sorting Orders  
+   Sorts orders by price using bubble and quick sort.
 
-## 📁 Folder Structure
+4. Employee Records  
+   Uses arrays to manage employee data.
 
-Week1_DesignPrinciplesAndPatterns/
-├── Code/
-│   ├── Mandatory/
-│   └── HandsOn/
-├── Output/
-└── README.md
+5. Task Manager  
+   Implements singly linked list for task tracking.
 
----
+6. Library Search  
+   Finds books by title using linear and binary search.
 
-## 📄 Output Location
+7. Financial Forecast  
+   Recursively predicts future financial values.
 
-The terminal outputs for all programs (mandatory and hands-on) are saved in:
+-------------------------------
+Week 1 - Design Patterns & Principles
+-------------------------------
 
-Output/Week1_Java_Exercise_Output.txt
+Mandatory Patterns:
+- Singleton Pattern (SingletonPatternExample.java)
+- Factory Method Pattern (FactoryMethodPatternExample.java)
 
----
+Hands-On Practice Patterns:
+- Builder
+- Adapter
+- Decorator
+- Proxy
+- Observer
+- Strategy
+- Command
+- MVC
+- Dependency Injection
 
-## 🛠️ How to Compile and Run Java Files
+All are located inside the 'design-patterns/handson' folder.
 
-To run any program from this week, open a terminal in the appropriate folder and use the commands below:
+-------------------------------
+How to Run Java Files in VS Code
+-------------------------------
 
-javac FileName.java  
-java FileName
+1. Open VS Code and this folder.
+2. Open terminal using Ctrl + ~
+3. Navigate to the correct folder using cd. For example:
 
-### Example:
+cd algorithms  
+javac Exercise1_InventoryManagement.java  
+java Exercise1_InventoryManagement
 
-javac StrategyPatternDemo.java  
-java StrategyPatternDemo
+OR for design patterns:
 
----
+cd design-patterns/mandatory  
+javac SingletonPatternExample.java  
+java SingletonPatternExample
+
+-------------------------------
+Output File
+-------------------------------
+
+All design pattern program outputs are saved in:
+
+Week1_DesignPatterns_All_Outputs.txt
+Week1_AlgorithmsAndDatastructures.txt
+
+
+-------------------------------
+Author
+-------------------------------
+
+Rakshana OR  
+Student - DN 4.0 Java Full Stack Engineer  
+Nandha Engineering College  
+GitHub: https://github.com/rakshana008
+
+-------------------------------
+Repository
+-------------------------------
+
+GitHub Repo Link:  
+https://github.com/rakshana008/Java-FSE-Exercises-6417094
+
+
