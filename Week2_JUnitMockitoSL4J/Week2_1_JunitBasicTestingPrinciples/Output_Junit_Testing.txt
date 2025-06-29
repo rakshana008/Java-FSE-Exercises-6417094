@@ -1,0 +1,24 @@
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+
+[INFO] Running com.demo.AssertionsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] Running com.demo.BankAccountTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] Running com.demo.CalculatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] Results:
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.365 s
+[INFO] Finished at: 2025-06-28T18:48:11+05:30
+[INFO] ------------------------------------------------------------------------
