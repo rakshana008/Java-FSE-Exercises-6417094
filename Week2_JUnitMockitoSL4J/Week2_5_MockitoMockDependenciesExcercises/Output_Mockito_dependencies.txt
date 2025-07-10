@@ -1,0 +1,28 @@
+-------------------------------------------------------
+  E X E R C I S E - 1 T E S T S
+-------------------------------------------------------
+Running com.example.controller.UserControllerTest
+2025-06-29T14:30:00.123+05:30  INFO 1234 --- [           main] o.s.boot.test.context.SpringBootTestContextBootstrapper : Found @WebMvcTest for test class 'UserControllerTest'
+2025-06-29T14:30:00.456+05:30  INFO 1234 --- [           main] o.s.b.t.context.SpringBootTestContextBootstrapper : Creating ApplicationContext for test class 'UserControllerTest'
+2025-06-29T14:30:00.789+05:30  INFO 1234 --- [           main] o.s.mock.web.MockServletContext : Initializing Spring TestDispatcherServlet
+2025-06-29T14:30:00.789+05:30  INFO 1234 --- [           main] o.s.test.web.servlet.TestDispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2025-06-29T14:30:00.800+05:30  INFO 1234 --- [           main] o.s.test.web.servlet.TestDispatcherServlet : Completed initialization in 11 ms
+2025-06-29T14:30:00.820+05:30  INFO 1234 --- [           main] com.example.controller.UserControllerTest : Started UserControllerTest in 2.345 seconds
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.563 s - in com.example.controller.UserControllerTest
+-------------------------------------------------------
+E X E R C I S E - 2 T E S T S
+-------------------------------------------------------
+Running com.example.service.UserServiceTest
+2025-06-29T14:31:00.123+05:30  INFO 1235 --- [           main] com.example.service.UserServiceTest : Started UserServiceTest in 1.234 seconds
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.234 s - in com.example.service.UserServiceTest
+-------------------------------------------------------
+ E X E R C I S E - 3T E S T S
+-------------------------------------------------------
+Running com.example.integration.UserIntegrationTest
+2025-06-29T14:32:00.123+05:30  INFO 1236 --- [           main] o.s.b.test.context.SpringBootTestContextBootstrapper : Found @SpringBootTest annotation
+2025-06-29T14:32:00.456+05:30  INFO 1236 --- [           main] o.s.b.t.context.SpringBootTestContextBootstrapper : Creating ApplicationContext for test class 'UserIntegrationTest'
+2025-06-29T14:32:01.123+05:30  INFO 1236 --- [           main] o.s.mock.web.MockServletContext : Initializing Spring TestDispatcherServlet
+2025-06-29T14:32:01.123+05:30  INFO 1236 --- [           main] o.s.test.web.servlet.TestDispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2025-06-29T14:32:01.145+05:30  INFO 1236 --- [           main] o.s.test.web.servlet.TestDispatcherServlet : Completed initialization in 15 ms
+2025-06-29T14:32:01.200+05:30  INFO 1236 --- [           main] com.example.integration.UserIntegrationTest : Started UserIntegrationTest in 3.567 seconds
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.789 s - in com.example.integration.UserIntegrationTest
