@@ -1,0 +1,15 @@
+Difference between JPA, Hibernate, and Spring Data JPA:
+
+JPA (Java Persistence API) is a specification that defines a standard for ORM in Java.
+ It provides annotations like @Entity, @Table, @Id, and @OneToMany to map Java objects to database tables. 
+However, JPA does not provide an actual implementation.
+
+HIBERNATE is an implementation of the JPA specification.
+It provides the actual functionality behind the annotations and includes additional features like caching and lazy loading.
+Developers can use Hibernate directly to manage entity persistence, 
+but it still requires writing boilerplate code for common queries and operations.
+
+SPRING DATA JPA is an abstraction built on top of JPA (typically using Hibernate as the provider). 
+It significantly reduces boilerplate code by automatically implementing repository methods based on method names (like findByName). 
+It also integrates with Spring’s dependency injection and transaction management, making development faster and easier.
+
