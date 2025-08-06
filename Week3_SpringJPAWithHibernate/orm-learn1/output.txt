@@ -1,0 +1,42 @@
+🔹 Exercise 1: List all countries
+✅ All Countries:
+Country [code=IN, name=India]
+Country [code=US, name=United States]
+
+🔹 Exercise 2: Display all countries (using debug logging)
+INFO OrmLearnApplication : Starting OrmLearnApplication
+INFO OrmLearnApplication : Inside main
+
+✅ All Countries:
+Country [code=IN, name=India]
+Country [code=US, name=United States]
+
+🔹 Exercise 3: Get country by code
+✅ Country with code 'IN':
+Country [code=IN, name=India]
+
+🔹 Exercise 4: Insert a new country
+✅ Added Country: Country [code=ZZ, name=Zootopia]
+✅ All Countries After Insert:
+Country [code=IN, name=India]
+Country [code=US, name=United States]
+Country [code=ZZ, name=Zootopia]
+
+🔹 Exercise 5: Enable logging using SLF4J
+INFO OrmLearnApplication : Start
+DEBUG OrmLearnApplication : countries=[Country [code=IN, name=India], Country [code=US, name=United States]]
+
+🔹 Exercise 6: Find country using a query
+DEBUG OrmLearnApplication : Country: Country [code=IN, name=India]
+DEBUG OrmLearnApplication : Country: Country [code=AB, name=Avalon]
+
+🔹 Exercise 7: Update country name
+✅ Country Before Update: Country [code=AB, name=Avalon]
+✅ Country After Update: Country [code=AB, name=Avalon Updated]
+
+🔹 Exercise 8: Delete a country
+✅ Country with code 'AB' deleted
+❌ Country not found after deletion
+
+🔹 Exercise 9: End of execution
+INFO OrmLearnApplication : End

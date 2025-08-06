@@ -1,0 +1,22 @@
+📘 Exercise 1 – Answer
+In Exercise 1, we demonstrated Spring Data JPA’s Query Methods using the Country entity. We created a CountryRepository interface that extended JpaRepository and declared methods like:
+
+findByNameContaining(String text)
+
+findByNameContainingOrderByNameAsc(String text)
+
+findByNameStartingWith(String prefix)
+
+These methods allowed us to perform dynamic queries without writing SQL. Spring automatically implemented them based on method names. We tested these methods by calling them in the run() method of OrmLearnApplication and printing the results.
+
+📘 Exercise 1 – Answer
+In Exercise 1, we demonstrated Spring Data JPA’s Query Methods using the Country entity. We created a CountryRepository interface that extended JpaRepository and declared methods like:
+
+findByNameContaining(String text)
+
+findByNameContainingOrderByNameAsc(String text)
+
+findByNameStartingWith(String prefix)
+
+These methods allowed us to perform dynamic queries without writing SQL. Spring automatically implemented them based on method names. We tested these methods by calling them in the run() method of OrmLearnApplication and printing the results.
+

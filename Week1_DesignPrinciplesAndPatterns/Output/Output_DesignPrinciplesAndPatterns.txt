@@ -1,0 +1,67 @@
+
+ Mandatory Exercises
+
+-------------------------------
+Output: SingletonPatternExample.java
+-------------------------------
+LOG: Singleton instance is working.
+Same instance? true
+
+-------------------------------
+Output: FactoryMethodPatternExample.java
+-------------------------------
+Opening Word Document
+Opening PDF Document
+
+
+ Hands-On Exercise
+
+-------------------------------
+Output: BuilderPatternExample.java
+-------------------------------
+Computer[CPU=Intel i5, RAM=16GB, Storage=512GB SSD]
+
+-------------------------------
+Output: AdapterPatternExample.java
+-------------------------------
+Paid using PayPal: ₹500
+
+-------------------------------
+Output: DecoratorPatternExample.java
+-------------------------------
+Email: Hello User
+SMS: Hello User
+
+-------------------------------
+Output: ProxyPatternExample.java
+-------------------------------
+Loading pic.jpg
+Displaying pic.jpg
+Displaying pic.jpg
+
+-------------------------------
+Output: ObserverPatternExample.java
+-------------------------------
+Mobile App: New price is ₹120.5
+
+-------------------------------
+Output: StrategyPatternExample.java
+-------------------------------
+Paid ₹1000 using Credit Card.
+Paid ₹500 using PayPal.
+
+-------------------------------
+Output: CommandPatternExample.java
+-------------------------------
+Light is ON
+Light is OFF
+
+-------------------------------
+Output: MVCPatternExample.java
+-------------------------------
+Student: Rakshana, ID: 101, Grade: A
+
+-------------------------------
+Output: DependencyInjectionExample.java
+-------------------------------
+Found: Customer#1

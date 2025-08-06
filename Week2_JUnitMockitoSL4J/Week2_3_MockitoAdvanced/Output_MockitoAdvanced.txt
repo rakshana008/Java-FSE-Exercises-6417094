@@ -1,0 +1,31 @@
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+
+[INFO] Running com.demo.SpyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] Running com.demo.ArgumentCaptorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] Running com.demo.MockingVoidMethodsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] Running com.demo.MockingFinalClassTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] Running com.demo.MockitoAnnotationsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+-------------------------------------------------------
+Results:
+-------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  X.XXX s
+[INFO] Finished at: YYYY-MM-DDTHH:mm:ss+05:30
+[INFO] ------------------------------------------------------------------------

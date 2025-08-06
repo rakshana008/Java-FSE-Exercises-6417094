@@ -1,0 +1,135 @@
+Lab 1: My First React App (lab1-myfirstreact)
+-------------------------------------------------
+This lab introduces the basics of React and JSX. The app displays simple bootcamp information using functional components with hardcoded values.
+
+Browser Output:
+
+makefile
+Copy
+Edit
+React Bootcamp  
+Status: ongoing
+
+Java Bootcamp  
+Status: completed
+Key Concepts Covered:
+
+Basic JSX rendering
+
+No use of state or dynamic logic
+
+Created using npx create-react-app
+
+Focused on understanding React structure and syntax
+
+Lab 2: Student App (lab2-studentapp)
+---------------------------------------
+This app demonstrates how to break the UI into components and pass data using props.
+
+Browser Output:
+
+diff
+Copy
+Edit
+Welcome to Student Dashboard
+
+Student List:
+- John Doe  
+- Jane Smith
+Key Concepts Covered:
+
+Component-based design using a Components/ folder
+
+Props used for data sharing between components
+
+Emphasis on reusability and clean code organization
+
+Lab 3: Score Card App (lab3-scorecard)
+-----------------------------------------
+This lab displays student scores and uses mapping and conditional logic.
+
+Browser Output:
+
+yaml
+Copy
+Edit
+Student Scores
+
+Name: Alex | Score: 90  
+Name: Bella | Score: 85
+Key Concepts Covered:
+
+Rendering lists with .map()
+
+Conditional logic for displaying pass/fail
+
+Improved understanding of props and iteration in JSX
+
+Lab 4: Blog App (lab4-blogapp)
+------------------------------------
+This app fetches and displays blog posts from a remote API using lifecycle methods.
+
+Browser Output (when API works):
+
+csharp
+Copy
+Edit
+Blog Posts
+
+Post One  
+This is the first post.
+
+Post Two  
+This is the second post.
+
+Post Three  
+This is the third post.
+If the API fails or is unreachable:
+
+vbnet
+Copy
+Edit
+Error: Failed to fetch
+Key Concepts Covered:
+
+Data fetching using fetch()
+
+Use of componentDidMount() lifecycle method
+
+State management for fetched data and errors
+
+Displays loading and error UI as needed
+
+Lab 5: Cohort Dashboard (lab5-cohortdashboard)
+----------------------------------------------------
+Displays information about different training cohorts with styled status.
+
+Browser Output:
+
+makefile
+Copy
+Edit
+Cohort Dashboard
+
+Cohort: ReactJS  
+Status: Ongoing
+
+Cohort: NodeJS  
+Status: Completed
+Key Concepts Covered:
+
+Conditional rendering and styling
+
+Use of CSS Modules or inline styles
+
+More focus on layout and visual structuring of data
+
+Final Summary:
+---------------------------------
+All five labs are well-structured, tested, and producing correct output in the browser. The project folder includes standard files such as public/, src/, and package.json. Each lab builds progressively, covering important React concepts like:
+
+JSX
+Props and components
+State and lifecycle methods
+Fetching data from APIs
+Conditional rendering and styling

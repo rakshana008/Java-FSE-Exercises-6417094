@@ -1,0 +1,23 @@
+Exercise 1: Logging Error Messages and Warning Levels
+
+[main] ERROR com.demo.LoggingExample - This is an error message  
+[main] WARN  com.demo.LoggingExample - This is a warning message
+
+------------------------------------------------------------
+
+Exercise 2: Parameterized Logging
+
+[main] INFO  com.demo.ParameterizedLoggingExample - User Harini has tried to login 3 times  
+[main] DEBUG com.demo.ParameterizedLoggingExample - Debugging user login: user=Harini, attempts=3
+
+------------------------------------------------------------
+
+Exercise 3: Using Different Appenders
+
+Console Output:
+HH:mm:ss.SSS [main] INFO  com.demo.DifferentAppenderExample - This message will go to both console and file  
+HH:mm:ss.SSS [main] DEBUG com.demo.DifferentAppenderExample - Debug message also routed to both appenders
+
+File Output (logs/app.log):
+HH:mm:ss.SSS [main] INFO  com.demo.DifferentAppenderExample - This message will go to both console and file  
+HH:mm:ss.SSS [main] DEBUG com.demo.DifferentAppenderExample - Debug message also routed to both appenders

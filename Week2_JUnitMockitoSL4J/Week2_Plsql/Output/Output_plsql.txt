@@ -1,0 +1,123 @@
+==============================
+✅ Exercise 1: Control Structures
+==============================
+
+🔹 Scenario 1: Applying a 1% discount to loan interest rates for customers above 60 years of age  
+✔️ Output:  
+1% discount applied for Customer ID: 1
+
+🔹 Scenario 2: Promoting customers with a balance above ₹10,000 to VIP status  
+✔️ Output:  
+Customer ID 2 has been promoted to VIP.
+
+🔹 Scenario 3: Sending reminders for loans due within the next 30 days  
+✔️ Output:  
+Reminder: Loan ID 3 for customer John Doe (Customer ID 1) is due on 08-JUL-2025
+
+===========================
+✅ Exercise 2: Error Handling
+===========================
+
+🔹 Scenario 1: Safely handling exceptions during fund transfers  
+✔️ Output:  
+Funds transferred successfully.  
+Error during fund transfer: ORA-20001 – Insufficient funds in source account.
+
+🔹 Scenario 2: Handling errors when updating employee salaries  
+✔️ Output:  
+Salary successfully updated for Employee ID: 2
+
+🔹 Scenario 3: Ensuring customer data integrity when adding new entries  
+✔️ Output:  
+Customer Charlie Black has been added successfully.
+
+===============================
+✅ Exercise 3: Stored Procedures
+===============================
+
+🔹 Scenario 1: Calculating and updating monthly interest for savings accounts  
+✔️ Output:  
+Interest applied to Account ID: 1  
+Interest applied to Account ID: 101  
+Interest applied to Account ID: 102
+
+🔹 Scenario 2: Applying bonus based on employee department performance  
+✔️ Output:  
+1 employee(s) in the IT department received a bonus.
+
+🔹 Scenario 3: Transferring funds between customer accounts  
+✔️ Output:  
+Transfer of ₹500 completed successfully from Account 101 to 102
+
+=======================
+✅ Exercise 4: Functions
+=======================
+
+🔹 Scenario 1: Calculating the age of a customer from their date of birth  
+✔️ Output:  
+Customer Age: 43
+
+🔹 Scenario 2: Computing the monthly installment for a loan  
+✔️ Output:  
+Monthly Installment: ₹943.56
+
+🔹 Scenario 3: Verifying sufficient account balance before a transaction  
+✔️ Output:  
+Sufficient Balance: TRUE
+
+=====================
+✅ Exercise 5: Triggers
+=====================
+
+🔹 Scenario 1: Auto-updating the 'LastModified' field when a customer record is updated  
+✔️ Output:  
+Customer record updated. 'LastModified' field set by trigger.
+
+🔹 Scenario 2: Logging transactions into an audit table  
+✔️ Output:  
+Audit log entry created for Transaction ID: 5
+
+🔹 Scenario 3: Enforcing business rules for deposits and withdrawals  
+✔️ Output:  
+Error: Cannot withdraw more than available balance  
+Error: Deposit amount must be positive
+
+=====================
+✅ Exercise 6: Cursors
+=====================
+
+🔹 Scenario 1: Generating monthly statements for all customers  
+✔️ Output:  
+--- Monthly Statement ---  
+Account: 101, Date: 20-JUN-2025, Amount: ₹500, Type: Deposit  
+Account: 101, Date: 20-JUN-2025, Amount: ₹300, Type: Withdrawal
+
+🔹 Scenario 2: Deducting annual maintenance fee from all accounts  
+✔️ Output:  
+Annual fee of ₹100 deducted from Account ID: 101  
+Annual fee of ₹100 deducted from Account ID: 102
+
+🔹 Scenario 3: Updating loan interest rates based on new policy  
+✔️ Output:  
+Loan ID 3 interest rate updated to 7.5%
+
+=======================
+✅ Exercise 7: Packages
+=======================
+
+🔹 Scenario 1: Managing customers with a package (add/update/view balance)  
+✔️ Output:  
+Customer Charlie Black added.  
+Customer record updated for ID: 10  
+Current balance: ₹9000
+
+🔹 Scenario 2: Managing employees with a package (hire/update/salary calculation)  
+✔️ Output:  
+New employee Nina Patel hired.  
+Annual Salary calculated: ₹600000
+
+🔹 Scenario 3: Managing accounts with a package (open/close/total balance)  
+✔️ Output:  
+Account opened for Customer ID: 10  
+Total balance across all accounts: ₹5000  
+Account ID 200 closed successfully
