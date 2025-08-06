@@ -1,0 +1,23 @@
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Running com.example.demo.CalculatorServiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s
+
+Running com.example.demo.CalculatorParameterizedTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s
+
+Running com.example.demo.service.UserServiceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s
+
+Results :
+
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.137 s
+[INFO] Finished at: 2025-06-29T13:15:00+05:30
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+
+[INFO] Running com.demo.MyServiceTest
+
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.345 s
+[INFO] Finished at: 2025-06-28T19:15:00+05:30
+[INFO] ------------------------------------------------------------------------

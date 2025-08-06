@@ -1,0 +1,31 @@
+Start
+Hibernate: 
+    select employee0_.em_id as em_id1_2_0_, department1_.dp_id as dp_id1_1_1_, 
+           skill3_.sk_id as sk_id1_4_2_, employee0_.em_date_of_birth as em_date_2_2_0_, 
+           employee0_.em_dp_id as em_dp_id6_2_0_, employee0_.em_name as em_name3_2_0_, 
+           employee0_.em_permanent as em_perma4_2_0_, employee0_.em_salary as em_salar5_2_0_, 
+           department1_.dp_name as dp_name2_1_1_, skill3_.sk_name as sk_name2_4_2_, 
+           skilllist2_.es_em_id as es_em_id1_3_0__, skilllist2_.es_sk_id as es_sk_id2_3_0__ 
+    from employee employee0_ 
+    left outer join department department1_ on employee0_.em_dp_id=department1_.dp_id 
+    left outer join employee_skill skilllist2_ on employee0_.em_id=skilllist2_.es_em_id 
+    left outer join skill skill3_ on skilllist2_.es_sk_id=skill3_.sk_id 
+    where employee0_.em_permanent=1
+
+Permanent Employees: [Employee(id=1, name="John", permanent=true, department=Dept A, skills=[Java, SQL]), Employee(id=2, name="Alice", permanent=true, department=Dept B, skills=[Python, Angular])]
+Skills: [Java, SQL]
+Skills: [Python, Angular]
+End
+Hibernate: 
+    select avg(employee0_.em_salary) as col_0_0_ 
+    from employee employee0_ 
+    where employee0_.em_dp_id=2
+
+Average Salary: 65000.0
+Hibernate: 
+    SELECT * FROM employee
+
+All Employees (Native): 
+[Employee(id=1, name="John", salary=60000, department=Dept A), 
+ Employee(id=2, name="Alice", salary=70000, department=Dept B),
+ Employee(id=3, name="Mark", salary=50000, department=Dept A)]
