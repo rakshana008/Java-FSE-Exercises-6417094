@@ -1,0 +1,98 @@
+🔹 Lab 9 – cricketapp Output
+---------------------------------
+When flag = true:
+
+Cricket App
+Players with Score >= 70
+Player 1 - 95
+Player 3 - 80
+Player 5 - 90
+Player 7 - 75
+Player 8 - 85
+Player 11 - 70
+
+When flag = false:
+
+Cricket App
+All Players (Merged)
+Odd Team Player: Kohli
+Even Team Player: Rohit
+Gill
+Pujara
+Rahane
+Karun
+🔹 Lab 10 – officespacerentalapp Output
+--------------------------------------------
+
+Office Space Rental
+
+Office List
+
+Name: Office A
+Rent: ₹55000  ← (Displayed in red)
+Address: Chennai
+
+Name: Office B
+Rent: ₹75000  ← (Displayed in green)
+Address: Bangalore
+
+Name: Office C
+Rent: ₹60000  ← (Displayed in red)
+Address: Hyderabad
+
+🔹 Lab 11 – eventexamplesapp Output
+-----------------------------------------------
+
+React Event Examples
+
+Counter: 0
+[Increment] → Increases counter by 1 and shows alert: "Hello from React!"
+[Decrement] → Decreases counter by 1
+
+[Say Welcome] → Shows alert: "Welcome to React!"
+
+[Click Me (Synthetic Event)] → Shows alert: "I was clicked (Synthetic Event)"
+
+Currency Converter (INR to EURO)
+User inputs: 1000
+[Convert] → Displays: Converted Value: €11.00
+
+🔹 Lab 12 – ticketbookingapp Output
+----------------------------------------------------
+Initial state (Guest view):
+
+✈️ Ticket Booking App
+[Login]
+Welcome Guest!
+Please login to book tickets.
+Flight: Chennai ✈️ Bangalore
+After clicking [Login]:
+✈️ Ticket Booking App
+[Logout]
+Welcome, you can now book your tickets!
+Flight: Chennai ✈️ Bangalore
+[Book Now]
+After clicking [Logout]:
+✈️ Ticket Booking App
+[Login]
+Welcome Guest!
+Please login to book tickets.
+Flight: Chennai ✈️ Bangalore
+
+🔹 Lab 13 – bloggerapp Output
+---------------------------------------
+When Book button is clicked:
+📚 Book Details
+Title: React Mastery
+Author: Dan Abramov
+Pages: 320
+When Blog button is clicked:
+📝 Blog Details
+Title: Understanding React Lifecycle
+Author: Sophie Alpert
+Date: August 2025
+When Course button is clicked:
+🎓 Course Details
+Course Name: React for Beginners
+Duration: 6 weeks
+Mode: Online
